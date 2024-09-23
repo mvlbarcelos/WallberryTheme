@@ -18,7 +18,7 @@ class WBOpenWeatherMap extends WBProvider {
 	}
 
 	get updateIntervalLimit() {
-		return 10 * 60 * 1000; // 10 minutes
+		return 30 * 60 * 1000; // 10 minutes
 	}
 
 	get daysToForecastLimit() {
