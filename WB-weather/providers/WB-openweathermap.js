@@ -7,7 +7,7 @@
 class WBOpenWeatherMap extends WBProvider {
 	constructor(config, delegate) {
 		super(config, delegate);
-		this.baseURL = "https://api.openweathermap.org/data/2.5/onecall";
+		this.baseURL = "https://api.openweathermap.org/data/3.0/onecall";
 		this.url = this.getQueryStringURL(this.baseURL, {
 			"lat": config.latitude,
 			"lon": config.longitude,
